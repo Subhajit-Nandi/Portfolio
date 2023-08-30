@@ -1,6 +1,7 @@
 {
   "name": "Portfolio",
-  "private": false,
+  "homepage": "https://Subhajit-Nandi.github.io/Portfolio",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
