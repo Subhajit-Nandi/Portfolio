@@ -32,6 +32,7 @@ import BEE from "./company/BEE.png";
 import Todura from "./Todura.png";
 import CyberViON from "./CyberViON.png";
 import NewsBEE from "./NewsBEE.png";
+import TrendZy from "./TrendZy.png";
 
 export {
   logo,
@@ -58,6 +59,7 @@ export {
   CyberViON,
   Todura,
   NewsBEE,
+  TrendZy,
   BEE,
   logo1,
   Cplusplus,

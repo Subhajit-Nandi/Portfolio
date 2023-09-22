@@ -23,6 +23,7 @@ import {
     python,
     CyberViON,
     NewsBEE,
+    TrendZy,
 } from "../assets";
 
 const navLinks = [
@@ -180,6 +181,31 @@ const projects = [
         source_code_link: "https://github.com/Subhajit-Nandi/NewsBEE",
     },
     {
+        name: "TrendZy",
+        description:
+            "An E-commerce platform with functionalities used like sorting, categorically diversing products. Techs used Vite, SCSS, javascript, Strapi, and Stripe",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Strapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Stripe",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Redux-Toolkit",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: TrendZy,
+        source_code_link: "https://subhajit-nandi.github.io/TrendZy/",
+    },
+    {
         name: "TODURA",
         description:
             "Web-based platform that gives you a quick and simple notepad editing experience when you write notes, memo, email, message, shopping list and to do list.",
@@ -200,27 +226,28 @@ const projects = [
         image: Todura,
         source_code_link: "https://github.com/Subhajit-Nandi/TODURA",
     },
-    {
-        name: "CyberViON",
-        description:
-            "CyberViON is a tech blog website built using bootstrap.The blog's primary focus usually centers on the technologies you use most in your daily life. ",
-        tags: [
-            {
-                name: "Html",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "css",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Bootstrap",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: CyberViON,
-        source_code_link: "https://subhajit-nandi.github.io/CyberViON/",
-    },
+    // {
+    //     name: "CyberViON",
+    //     description:
+    //         "CyberViON is a tech blog website built using bootstrap.The blog's primary focus usually centers on the technologies you use most in your daily life. ",
+    //     tags: [
+    //         {
+    //             name: "Html",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Bootstrap",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: CyberViON,
+    //     source_code_link: "https://subhajit-nandi.github.io/CyberViON/",
+    // },
+    
 ];
 
 export { services, technologies, experiences, testimonials, projects, navLinks };
