@@ -24,15 +24,23 @@ import threejs from "./tech/threejs.svg";
 import Cplusplus from "./tech/Cplusplus.png";
 import bootstrap from "./tech/bootstrap.png";
 import python from "./tech/python.png";
+import java from "./tech/java.png";
+import pandas from "./tech/pandas.png";
+import numpy from "./tech/numpy.png";
+import tensorflow from "./tech/tensorflow.png";
 
 
 import BEE from "./company/BEE.png";
+import VECC from "./company/VECC.png";
 
 
 import Todura from "./Todura.png";
 import CyberViON from "./CyberViON.png";
 import NewsBEE from "./NewsBEE.png";
 import TrendZy from "./TrendZy.png";
+import ProfitPulse from "./ProfitPulse.png";
+import MediScan from "./MediScan.png";
+import Netflix_2 from "./Netflix 2.0.png"
 
 export {
   logo,
@@ -65,4 +73,12 @@ export {
   Cplusplus,
   bootstrap,
   python,
+  java,
+  numpy,
+  pandas,
+  tensorflow,
+  VECC,
+  ProfitPulse,
+  MediScan,
+  Netflix_2,
 };

@@ -18,14 +18,14 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm
-            <span className='text-[#915eff]'> Xavier</span></h1>
+            <span className='text-[#915eff]'> Subhajit</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop MERN-stack applications
+            I develop Web/Android applications and Ai-tools, even have a bit expertise in desktop apps.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className='absolute xs:bottom-1 bottom-8 w-full flex justify-center items-center'>
         <a href="#about">
           <div className='w-[23px] h-[50px] rounded-3xl border-4 border-secondary 

@@ -4,6 +4,10 @@ import {
     creator,
     web,
     javascript,
+    java,
+    pandas,
+    tensorflow,
+    numpy,
     bootstrap,
     html,
     css,
@@ -18,12 +22,16 @@ import {
     git,
     Cplusplus,
     BEE,
+    VECC,
     Todura,
     threejs,
     python,
     CyberViON,
     NewsBEE,
     TrendZy,
+    ProfitPulse,
+    MediScan,
+    Netflix_2
 } from "../assets";
 
 const navLinks = [
@@ -43,31 +51,35 @@ const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Web/Android Developer",
         icon: web,
     },
     {
-        title: "Algorithm Architect",
+        title: "Ai Tools",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Desktop Applications",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "DS/Algorithms",
         icon: creator,
     },
 ];
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "PANDAS",
+        icon: pandas,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "NUMPY",
+        icon: numpy,
+    },
+    {
+        name: "TensorFlow",
+        icon: tensorflow,
     },
     {
         name: "JavaScript",
@@ -98,15 +110,15 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "JAVA",
+        icon: java,
     },
     {
         name: "git",
         icon: git,
     },
     {
-        name: "C/C++",
+        name: "C++",
         icon: Cplusplus,
     },
     {
@@ -116,6 +128,19 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+        title: "Research & Development Intern",
+        company_name: "VECC",
+        icon: VECC,
+        iconBg: "#E6DEDD",
+        date: "March 2024 - May 2024",
+        points: [
+            "Migrated web applications to Bootstrap within Django, improving load speed by 30% and responsiveness by 25%.",
+            "Developed a Python-based desktop security module with 40% higher efficiency, enabling real-time threat monitoring and dynamic device detection.",
+            "Integrated MariaDB for USB device registration, enabling real-time detection, ejection, and data security through USB tethering and dynamic network routing.",
+            "Automated startup processes using NSSM commands and system-level scheduling for seamless Windows service deployment.",
+        ],
+    },
     {
         title: "Full stack Developer",
         company_name: "BEE",
@@ -159,6 +184,60 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "ProfitPulse",
+        description:
+            "Developed a stock price prediction web-app leveraging machine learning techniques to forecast future stock prices based on historical data.",
+        tags: [
+            {
+                name: "TensorFlow",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Scikit-Learn",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Numpy",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MatplotLib",
+                color: "green-text-gradient",
+            },
+        ],
+        image: ProfitPulse,
+        source_code_link: "https://github.com/Subhajit-Nandi/Stock-Price-Prediction-using-ML",
+    },
+    {
+        name: "MediScan",
+        description:
+            "A healthcare application leveraging machine learning algorithms [𝐒𝐕𝐌, 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧] to predict 𝐏𝐚𝐫𝐤𝐢𝐧𝐬𝐨𝐧'𝐬, 𝐝𝐢𝐚𝐛𝐞𝐭𝐞𝐬, 𝐚𝐧𝐝 𝐡𝐞𝐚𝐫𝐭 𝐝𝐢𝐬𝐞𝐚𝐬𝐞. ",
+        tags: [
+            {
+                name: "Scikit-Learn",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Numpy",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "StreamLit",
+                color: "green-text-gradient",
+            },
+        ],
+        image: MediScan,
+        source_code_link: "https://github.com/Subhajit-Nandi/Multiple-Disease-Prediction_App_Using-ML",
+    },
     {
         name: "NewsBEE",
         description:
@@ -206,6 +285,31 @@ const projects = [
         source_code_link: "https://subhajit-nandi.github.io/TrendZy/",
     },
     {
+        name: "NETFLIX 2.0",
+        description:
+            "A complete 𝐜𝐥𝐨𝐧𝐞 version of 𝗡𝗘𝗧𝗙𝗟𝗜𝗫 built using 𝐓𝐌𝐃𝐁 𝐀𝐩𝐢 | 𝐅𝐢𝐫𝐞𝐛𝐚𝐬𝐞 (auth and firestore database functionality implemented) | 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒 | 𝐑𝐞𝐚𝐜𝐭",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "FireBase",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "TMDB - Api",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: Netflix_2,
+        source_code_link: "https://github.com/Subhajit-Nandi/Netflix-2.0",
+    },
+    {
         name: "TODURA",
         description:
             "Web-based platform that gives you a quick and simple notepad editing experience when you write notes, memo, email, message, shopping list and to do list.",
@@ -247,7 +351,7 @@ const projects = [
     //     image: CyberViON,
     //     source_code_link: "https://subhajit-nandi.github.io/CyberViON/",
     // },
-    
+
 ];
 
 export { services, technologies, experiences, testimonials, projects, navLinks };
